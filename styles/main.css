@@ -1,0 +1,144 @@
+.search{
+    background-color: red;
+    height: 100px;
+    
+}
+
+.searchbar{
+ 
+    font-size: 14px;
+    line-height: 26px;
+
+}
+
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+
+.Formularcontent{
+    padding-bottom: 10px;
+
+}
+
+.forminput {
+    width: 100%;
+}
+
+.searchIcon{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: ccc;
+    font-size: 12px;
+}
+
+.searchIn{
+    position: absolute;
+    top: -8px;
+    right: 7.5px;
+
+}
+
+.ShowMoreLink{
+    padding: 5px;
+}
+
+#faSearchIcon{
+  color: ccc;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+.ListItem {
+    width: 100%;
+    border-bottom: 1px solid #554f4f;
+  }
+  .ListItem .ListItem__head {
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+  }
+  .ListItem .ListItem__head .ListItem__Arrow {
+    width: 20px;
+    opacity: 0.6;
+  }
+  .ListItem .ListItem__head .ListItem__Arrow i {
+    transition: transform 300ms, -webkit-transform 300ms;
+  }
+  .ListItem .ListItem__head .ListItem__Arrow i:before {
+    content: "\f105";
+    font-size: 20px;
+  }
+  .ListItem .ListItem__head .ListItem__Image {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+  }
+  .ListItem .ListItem__head .ListItem__Image img {
+    height: 100%;
+    width: 100%;
+    outline: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .ListItem .ListItem__head .ListItem__Title .ListItem__Title--headline {
+    margin: 0;
+  }
+  .ListItem .ListItem__head .ListItem__Title .ListItem__Title--description {
+    margin: 0;
+    font-size: 85%;
+    opacity: 0.75;
+  }
+  .ListItem.ListItem--clickable {
+    cursor: pointer;
+  }
+  .ListItem.ListItem--clickable:hover {
+    background-color: rgb(53, 51, 51);
+  }
+  .ListItem.ListItem--accordion {
+    cursor: pointer;
+  }
+  .ListItem.ListItem--accordion:hover {
+    background-color: #fff;
+  }
+  .ListItem.ListItem--accordion .ListItem__body {
+    max-height: 0px;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1) -0.1s;
+    will-change: max-height;
+    overflow: hidden;
+  }
+  .ListItem.ListItem--accordion .ListItem__body .ListItem__content {
+    padding: 9px 9px 9px 29px;
+  }
+  .ListItem.ListItem--accordion.ListItem--accordion--open {
+    background-color: #fff;
+  }
+  .ListItem.ListItem--accordion.ListItem--accordion--open .ListItem__body {
+    max-height: 999px;
+    transition: max-height 0.5s cubic-bezier(0.5, 0, 1, 0) 0s;
+  }
+  .ListItem.ListItem--accordion.ListItem--accordion--open .ListItem__head {
+    font-weight: bold;
+  }
+  .ListItem.ListItem--accordion.ListItem--accordion--open .ListItem__head .ListItem__Arrow i {
+    transform: rotate(90deg);
+  }
+  
